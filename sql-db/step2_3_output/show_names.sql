@@ -1,9 +1,9 @@
--- CREATE TABLE Show_Names (
---     show_id INT AUTO_INCREMENT NOT NULL,
---     show_name VARCHAR(100) NOT NULL,
---     show_info VARCHAR(200) NOT NULL,
---     PRIMARY KEY (show_id)
--- );
+CREATE TABLE Show_Names (
+    show_id INT AUTO_INCREMENT NOT NULL,
+    show_name VARCHAR(100) NOT NULL,
+    show_info VARCHAR(200) NOT NULL,
+    PRIMARY KEY (show_id)
+);
 
 
 INSERT INTO Show_Names (show_id, Show_Name, show_info) VALUES

@@ -1,8 +1,8 @@
--- CREATE TABLE Genres (
---     genre_id   INT AUTO_INCREMENT NOT NULL,
---     genre_name VARCHAR(20) NOT NULL,
---     PRIMARY KEY (genre_id)
--- );
+CREATE TABLE Genres (
+    genre_id   INT AUTO_INCREMENT NOT NULL,
+    genre_name VARCHAR(20) NOT NULL,
+    PRIMARY KEY (genre_id)
+);
 
 INSERT INTO Genres VALUES
 (1 ,"ドラマ"),

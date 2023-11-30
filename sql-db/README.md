@@ -79,7 +79,7 @@
 |genres|[genres.sql](https://github.com/gostachan/apprentice/blob/main/sql-db/step2_3_output/genres.sql)|
 
 ## Step3
-クエリをまとめたファイル：[queri.sql](https://github.com/gostachan/apprentice/blob/main/sql-db/step2_3_output/queri.sql)
+クエリをまとめたファイル：[query.sql](https://github.com/gostachan/apprentice/blob/main/sql-db/step2_3_output/query.sql)
 
 
 ## 苦労した点

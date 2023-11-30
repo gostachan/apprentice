@@ -1,9 +1,8 @@
-
--- CREATE TABLE Channels (
---     channel_id INT AUTO_INCREMENT NOT NULL,
---     channel_name VARCHAR(50) NOT NULL,
---     PRIMARY KEY (channel_id)
--- );
+CREATE TABLE Channels (
+    channel_id INT AUTO_INCREMENT NOT NULL,
+    channel_name VARCHAR(50) NOT NULL,
+    PRIMARY KEY (channel_id)
+);
 
 INSERT INTO Channels VALUES
 (1, "アニメ1"),

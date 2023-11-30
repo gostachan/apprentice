@@ -1,17 +1,14 @@
---アニメ
-
-
--- CREATE TABLE Show_Inds (
---     show_ind_id    INT AUTO_INCREMENT NOT NULL, 
---     show_id        INT, 
---     show_season_id INT, 
---     show_length_h  INT DEFAULT 0, 
---     show_length_m  INT DEFAULT 0, 
---     show_length_s  INT DEFAULT 0, 
---     show_ind_name  VARCHAR(100) NOT NULL, 
---     show_ind_info  VARCHAR(200) NOT NULL, 
---     PRIMARY KEY (show_ind_id)
--- );
+CREATE TABLE Show_Inds (
+    show_ind_id    INT AUTO_INCREMENT NOT NULL, 
+    show_id        INT, 
+    show_season_id INT, 
+    show_length_h  INT DEFAULT 0, 
+    show_length_m  INT DEFAULT 0, 
+    show_length_s  INT DEFAULT 0, 
+    show_ind_name  VARCHAR(100) NOT NULL, 
+    show_ind_info  VARCHAR(200) NOT NULL, 
+    PRIMARY KEY (show_ind_id)
+);
 
 INSERT INTO show_inds 
     (show_id, show_season_id, show_length_h, show_length_m, show_length_s, show_ind_name, show_ind_info) 

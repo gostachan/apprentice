@@ -1,4 +1,3 @@
-
 CREATE TABLE Broadcasts (
     channel_id  INT NOT NULL,
     show_ind_id INT NOT NULL,
@@ -6,6 +5,7 @@ CREATE TABLE Broadcasts (
     view_num    INT,
     PRIMARY KEY (start_time )
 );
+
 INSERT INTO Broadcasts VALUES
 (1,1 , '2023-11-05-06-00' ,  10345 ),
 (1,2 , '2023-11-05-06-30' ,  10345 ),
